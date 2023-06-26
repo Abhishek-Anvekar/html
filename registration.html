@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>FormFill</title>
+  </head>
+  <body>
+    <form action="table.html">
+        <fieldset
+        style="background-color: aquamarine; border: 2px solid darkblue; margin: auto; width: 15%;"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required style="text-align: center;"><br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required style="text-align: center;"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other" required>
+        <label for="other">Other</label><br><br>
+        <label for="education">Education:</label>
+        <select id="education" name="education" required>
+          <option value="">Select</option>
+          <option value="BE">BE</option>
+          <option value="ME">ME</option>
+          <option value="Graduation">Graduation</option>
+        </select><br><br>
+        <label for="degree">Degree:</label>
+        <input type="checkbox" id="be" name="degree" value="BE">
+        <label for="be">BE</label>
+        <input type="checkbox" id="me" name="degree" value="ME">
+        <label for="me">ME</label>
+        <input type="checkbox" id="graduation" name="degree" value="Graduation">
+        <label for="graduation">Graduation</label><br><br>
+        <input type="submit" value="Submit" style="display: block;margin-right: auto;width: 50%;margin-left: auto;">
+      </form>
+    </fieldset>
+  </body>
+</html>
+<!-- Name ,address, Gender,drop downlist box, BE, ME,Graduation  -->
